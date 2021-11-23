@@ -1,0 +1,246 @@
+/* =============== 按钮 ========================== */
+.btnGloabl {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+
+  border-radius: 4px;
+  img {
+    vertical-align: bottom;
+  }
+}
+.large {
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.middle {
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 16px;
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+.small {
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 16px;
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.large.iconOnly {
+  padding: 10px;
+}
+.middle.iconOnly {
+  padding: 8px;
+}
+.small.iconOnly {
+  padding: 5px;
+}
+
+/* primary主要按钮 */
+.primary {
+  background: #3b7aff;
+  color: #ffffff;
+}
+.primary:hover {
+  background: #0052ff;
+}
+.primary:active {
+  background: #1641b9;
+}
+.primary.disabled {
+  background: #f4f5fa;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+
+/* secondary次要按钮 */
+.second {
+  background: #e6eeff;
+  color: #3b7aff;
+}
+.second:hover {
+  background: #ccdcff;
+}
+.second:active {
+  background: #b3cbff;
+}
+.second.disabled {
+  background: #f4f5fa;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+
+/* third三级按钮 */
+.third {
+  background: #ffffff;
+  border: 1px solid #d1d3de;
+  color: #6e727a;
+}
+.third:hover {
+  background: #eeeff7;
+}
+.third:active {
+  background: #d1d3de;
+}
+.third.disabled {
+  background: #ffffff;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+.third.large {
+  padding: 9px 15px;
+}
+.third.middle {
+  padding: 7px 15px;
+}
+.third.small {
+  padding: 3px 7px;
+}
+.third.large.iconOnly {
+  padding: 9px;
+}
+.third.middle.iconOnly {
+  padding: 7px;
+}
+.third.small.iconOnly {
+  padding: 4px;
+}
+
+/* noBorder无框按钮 */
+.noBackground {
+  background: #ffffff;
+  color: #6e727a;
+}
+.noBackground:hover {
+  background: #eeeff7;
+}
+.noBackground:active {
+  background: #d1d3de;
+}
+.noBackground.disabled {
+  background: #ffffff;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+
+/* noBorder文字按钮 */
+.textButton {
+  background: none;
+  color: #50679a;
+}
+.textButton:hover {
+  color: #1641b9;
+}
+.textButton:active {
+  color: #122f80;
+}
+.textButton.disabled {
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+.textButton.loading:hover {
+  color: rgba(255, 255, 255, 0);
+}
+.textButton.loading:active {
+  color: rgba(255, 255, 255, 0);
+}
+
+/* primaryAlert主要按钮 */
+.primaryAlert {
+  background: #ff4d3c;
+  color: #ffffff;
+}
+.primaryAlert:hover {
+  background: #e64536;
+}
+.primaryAlert:active {
+  background: #cc3e30;
+}
+.primaryAlert.disabled {
+  background: #f4f5fa;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+
+/* third三级按钮 */
+.thirdAlert {
+  background: #ffffff;
+  border: 1px solid #ffb9b3;
+  color: #ff4d3c;
+}
+
+.thirdAlert:hover {
+  background: #ffe8e6;
+}
+.thirdAlert:active {
+  background: #ffb9b3;
+}
+.thirdAlert.disabled {
+  background: #ffffff;
+  color: #d1d3de;
+  cursor: not-allowed;
+  border: 1px solid #d1d3de;
+}
+.thirdAlert.large {
+  padding: 9px 15px;
+}
+.thirdAlert.middle {
+  padding: 7px 15px;
+}
+.thirdAlert.small {
+  padding: 3px 7px;
+}
+.thirdAlert.large.iconOnly {
+  padding: 9px;
+}
+.thirdAlert.middle.iconOnly {
+  padding: 7px;
+}
+.thirdAlert.small.iconOnly {
+  padding: 4px;
+}
+
+/* noBorder无框按钮-警示 */
+.noBackgroundAlert {
+  background: #ffffff;
+  color: #ff4d3c;
+}
+.noBackgroundAlert:hover {
+  background: #ffe8e6;
+}
+.noBackgroundAlert:active {
+  background: #ffb9b3;
+}
+.noBackgroundAlert.disabled {
+  background: #ffffff;
+  color: #d1d3de;
+  cursor: not-allowed;
+}
+
+/* loading样式 */
+.loading {
+  color: rgba(255, 255, 255, 0);
+}
+.loadingIcon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
